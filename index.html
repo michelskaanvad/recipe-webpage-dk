@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Site</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+
+    <nav class="navigation">
+      <div class="menu-container">
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="subpage.html">Recipe</a>
+          </li>
+          <li>
+            <a href="about us.html">About us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+
+    <section class="hero">
+      <div class="hero-container">
+        <div class="hero-text">
+          <p class="hero-text-small-header">#1 Bender's most shiny recipe</p>
+          <p class="hero-text-big-header">Boozy brown <span class="hero-text-bold">Lentil soup</span></p>
+          <p class="hero-text-small-header">40% healthy</p>
+        </div>
+
+        <div class="hero-search">
+          <input type="search" name="" class="search-box" placeholder="Search">
+
+        </div>
+      </div>
+    </section>
+
+    <section class="todays_recipe">
+      <div class="todays_recipes_headline">
+        <h2>Recipes of the day</h2>
+      </div>
+
+      <div class="todays_recipes_content">
+        <div class="todays_recipes_content_block">
+          <div class="todays_recipes_content_block_image">
+            <img src="https://picsum.photos/300/175" alt="">
+          </div>
+          <div class="todays_recipes_content_block_text">
+            <div class="todays_recipes_content_block_text_top">
+              <h5>Crap'tacular</h5>
+              <p>Lorem Ipsum is simply dummy text of the printing and</p>
+            </div>
+
+            <div class="todays_recipes_content_block_text_bottom">
+              <div class="todays_recipes_content_block_bottom_area">
+                <div class="todays_recipes_content_block_bottom_area_left" data-category="seafood">
+                  <i class="fa-solid fa-fish" id="fish-icon"></i>
+                  <p id="cat-test" data-category="seafood"></p>
+                  <p>Recipe</p>
+                </div>
+                <div class="todays_recipes_content_block_bottom_area_right">
+                  <button>
+                    <a href="#">How to</a>
+                  </button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="todays_recipes_content_block">
+          <div class="todays_recipes_content_block_image">
+            <img src="https://picsum.photos/300/175" alt="">
+          </div>
+          <div class="todays_recipes_content_block_text">
+            <div class="todays_recipes_content_block_text_top">
+              <h5>Chick'tastic</h5>
+              <p>Lorem Ipsum is simply dummy text of the</p>
+            </div>
+
+            <div class="todays_recipes_content_block_text_bottom">
+              <div class="todays_recipes_content_block_bottom_area">
+                <div class="todays_recipes_content_block_bottom_area_left">
+                  <p class="category-color category-seafood" data-category="chicken">Chicken</p>
+                  <p>Recipe</p>
+                </div>
+                <div class="todays_recipes_content_block_bottom_area_right">
+                  <button>
+                    <a href="#">How to</a>
+                  </button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="todays_recipes_content_block">
+          <div class="todays_recipes_content_block_image">
+            <img src="https://picsum.photos/300/175" alt="">
+          </div>
+          <div class="todays_recipes_content_block_text">
+            <div class="todays_recipes_content_block_text_top">
+              <h5>Dessert'a'licous</h5>
+              <p>Lorem Ipsum is simply dummy text of the. Lorem Ipsum is simply dummy text of the. Lorem Ipsum is simply dummy text of the </p>
+            </div>
+            <div class="todays_recipes_content_block_text_bottom">
+              <div class="todays_recipes_content_block_bottom_area">
+                <div class="todays_recipes_content_block_bottom_area_left" data-category="pasta">
+                  <p id="cat-test" data-category="pasta"></p>
+                  <p>Recipe</p>
+                </div>
+                <div class="todays_recipes_content_block_bottom_area_right">
+                  <button>
+                    <a href="#">How to</a>
+                  </button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="todays_recipes_content_block">
+          <div class="todays_recipes_content_block_image">
+            <img src="https://picsum.photos/300/175" alt="">
+          </div>
+          <div class="todays_recipes_content_block_text">
+            <div class="todays_recipes_content_block_text_top">
+              <h5>Spicey meat'a'bowl</h5>
+              <p>Lorem Ipsum is simply dummy text of the</p>
+            </div>
+
+            <div class="todays_recipes_content_block_text_bottom">
+              <div class="todays_recipes_content_block_bottom_area">
+                <div class="todays_recipes_content_block_bottom_area_left">
+                  <p class="category-color category-seafood">Seafood</p>
+                  <p>Recipe</p>
+                </div>
+                <div class="todays_recipes_content_block_bottom_area_right">
+                  <button>
+                    <a href="#">How to</a>
+                  </button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+
+    </section>
+
+    <section class="category_selecetion">
+      <div class="category_selection_headline">
+        <h2>Category Selection</h2>
+      </div>
+
+      <div class="category_content">
+        <!-- category-icon+text block start -->
+        <div class="category_selecetion_block">
+          <div class="category_selecetion_block_icon">
+            <i class="fa-solid fa-seedling" data-category="veg"></i>
+          </div>
+          <div class="category_selecetion_block_text">
+            <p data-category="veg">Vegetarian</p>
+          </div>
+        </div>
+            <!-- category-icon+text block end -->
+             
+                    <!-- category-icon+text block start -->
+        <div class="category_selecetion_block">
+          <div class="category_selecetion_block_icon">
+            <i class="fa-solid fa-fish" id="fish-icon" data-category="seafood"></i>
+          </div>
+          <div class="category_selecetion_block_text">
+            <p data-category="seafood">Seafood</p>
+          </div>
+        </div>
+            <!-- category-icon+text block end -->
+
+                     <!-- category-icon+text block start -->
+        <div class="category_selecetion_block">
+          <div class="category_selecetion_block_icon">
+            <i class="fa-solid fa-bowl-food" data-category="pasta"></i>
+          </div>
+          <div class="category_selecetion_block_text">
+            <p data-category="pasta">Pastas</p>
+          </div>
+        </div>
+            <!-- category-icon+text block end -->
+
+                    <!-- category-icon+text block start -->
+        <div class="category_selecetion_block">
+          <div class="category_selecetion_block_icon">
+            <i class="fa-solid fa-drumstick-bite" data-category="chicken"></i>
+          </div>
+          <div class="category_selecetion_block_text">
+            <p data-category="chicken">Chicken</p>
+          </div>
+        </div>
+            <!-- category-icon+text block end -->
+
+                    <!-- category-icon+text block start -->
+        <div class="category_selecetion_block">
+          <div class="category_selecetion_block_icon">
+            <i class="fa-solid fa-cookie-bite" data-category="misc"></i>
+          </div>
+          <div class="category_selecetion_block_text">
+            <p data-category="misc">Snacks</p>
+          </div>
+        </div>
+            <!-- category-icon+text block end -->
+
+                    <!-- category-icon+text block start -->
+        <div class="category_selecetion_block">
+          <div class="category_selecetion_block_icon">
+            <i class="fa-solid fa-utensils" data-category="meats"></i>
+          </div>
+          <div class="category_selecetion_block_text">
+            <p data-category="meats">Beef/Pork</p>
+          </div>
+        </div>
+            <!-- category-icon+text block end -->
+
+                    <!-- category-icon+text block start -->
+        <div class="category_selecetion_block">
+          <div class="category_selecetion_block_icon">
+            <i class="fa-solid fa-ice-cream" data-category="dessert"></i>
+          </div>
+          <div class="category_selecetion_block_text">
+            <p data-category="dessert">Dessert</p>
+          </div>
+        </div>
+            <!-- category-icon+text block end -->
+             
+      </div>
+      
+    </section>
+
+
+
+ 
+
+
+
+    <section class="content_image_in_kitchen_stuff">
+     <div class="category_inthekitchen_box">
+        <div class="category_inthekitchen_box_text">
+          <h6>In da Kitchen</h6>
+          <h4>ALL-STAR SHOWDOWN</h4>
+          <p>Big brawl in kitchen. Who takes it? 
+            Winner gets to take home the desserts! 
+            Losers can wave goodbye! </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="content_area">
+      <div class="in_the_kitchen_headline">
+        <h2>IN THE KITCHEN</h2>
+      </div>
+
+      <div class="store_kasse_for_alle_kasser">
+        <div class="første_række">
+          <div class="box_one_text">
+            <h6>In the kitchen</h6>
+            <h4>HOW TO PLATE AS A PRO</h4>
+            <p>Plating techniques - no salt bae crap. 
+              See how to properly arrange and design
+              a plate.</p>
+              <div class="box_one_text_button_area">
+                <button>
+                  <a href="#">Plating</a>
+                </button>
+              </div>
+          </div>
+          <img class="box_two_img" src="https://picsum.photos/300/175">
+        </div>
+
+        <div class="anden_række">
+          <img class="box_three_img" src="https://picsum.photos/300/175">
+          <div class="box_four_text">
+            <h6>In the kitchen</h6>
+            <h4>RECIPES ARE FOR...</h4>
+            <p>Big brawl in kitchen. Who takes it? 
+              Winner gets to take home the desserts! 
+              Losers can wave goodbye! </p>
+              <div class="box_four_text_button_area">
+                <button>
+                  <a href="#">Plating</a>
+                </button>
+              </div>
+          </div>
+
+        </div>
+
+        <div class="tredje_række">
+          <div class="box_five_text">
+            <h6>In the kitchen</h6>
+            <h4>MEATS - HOW TO BASTE</h4>
+            <p>Big brawl in kitchen. Who takes it? 
+              Winner gets to take home the desserts! 
+              Very scrumptious!</p>
+              <div class="box_five_text_button_area">
+                <button>
+                  <a href="#">Plating</a>
+                </button>
+              </div>
+          </div>
+          <img class="box_six_img" src="https://picsum.photos/300/175">
+        </div>
+
+      </div>
+     
+    </section>
+
+    
+
+    
+    <footer>
+      <div class="footer">
+        
+      </div>
+    </footer>
+
+  </div>
+</body>
+</html>

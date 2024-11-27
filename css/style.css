@@ -1090,4 +1090,10 @@ p {
 .første_række_about_us {display: flex; flex-direction: column; width: 80%;}
 .anden_række_about_us {display: flex; flex-direction: column-reverse; width: 80%;}
 .tredje_række_about_us {display: flex; flex-direction: column; width: 80%;}
+.box_1_text {width: 100%;}
+.box_2_img {width: 80%;}
+.box_3_img {width: 80%;}
+.box_4_text_about_us {width: 100%;}
+.box_5_text_about_us {width: 100%;}
+.box_6_img {width: 80%}
 }

@@ -1082,3 +1082,12 @@ p {
 .box_6_img {
   width: 50%;
 }
+
+@media (width <= 1200px) {
+:root {
+   --width-12col:100%; 
+} 
+.første_række_about_us {display: flex; flex-direction: column; width: 80%;}
+.anden_række_about_us {display: flex; flex-direction: column-reverse; width: 80%;}
+.tredje_række_about_us {display: flex; flex-direction: column; width: 80%;}
+}

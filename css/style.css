@@ -1096,4 +1096,5 @@ p {
 .box_4_text_about_us {width: 100%;}
 .box_5_text_about_us {width: 100%;}
 .box_6_img {width: 80%}
+.todays_recipes_content {grid-template-columns: repeat(1, 1fr) ;}
 }
